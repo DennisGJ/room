@@ -1,7 +1,7 @@
 /**movie.wxss**/
 
 .search {
-  margin: 26rpx 0;
+  margin: 34rpx 0 26rpx 0;
 }
 
 .search-area {

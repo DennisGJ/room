@@ -1,0 +1,30 @@
+/**index.wxss**/
+
+.drawBox {
+  margin: 100rpx auto;
+  padding: 20rpx;
+  background-color: #e7e7e7;
+  width: 550rpx;
+  height: auto;
+  border-radius: 5%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.drawBox .drawItem {
+  display: block;
+  width: 160rpx;
+  height: 160rpx;
+  line-height: 160rpx;
+  color: #fff;
+  border-radius: 15%;
+  margin: 10rpx;
+  background-color: #333;
+  text-align: center;
+}
+.drawBox .drawItem.flash {
+  background-color: skyblue;
+}
+.drawBox .drawItem.drawBtn {
+  background-color: red;
+}

@@ -10,7 +10,7 @@
 	"compileType": "miniprogram",
 	"libVersion": "1.9.91",
 	"appid": "wx3532b9a2ef563374",
-	"projectname": "movie",
+	"projectname": "room",
 	"isGameTourist": false,
 	"condition": {
 		"search": {
