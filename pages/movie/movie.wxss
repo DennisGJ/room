@@ -49,6 +49,7 @@
 .section-content {
   overflow-x: auto;
   -webkit-overflow-scrolling: touch;
+  padding: 10rpx 0;
 }
 
 .items {
