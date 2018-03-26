@@ -1,11 +1,11 @@
 {
   "pages":[
+    "pages/index/index",
     "pages/movie/movie",
     "pages/moviedetail/moviedetail",
     "pages/search/search",
     "pages/draw/draw",
     "pages/mine/mine",
-    "pages/index/index",
     "pages/logs/logs"
   ],
   "window":{
@@ -19,6 +19,12 @@
     "selectedColor": "#1296db",
     "borderStyle": "white",
     "list": [
+      {
+        "selectedIconPath": "images/home2.png",
+        "iconPath": "images/home.png",
+        "pagePath": "pages/index/index",
+        "text": "首页"
+      },
       {
         "selectedIconPath": "images/movie2.png",
         "iconPath": "images/movie.png",

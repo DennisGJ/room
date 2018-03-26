@@ -1,13 +1,25 @@
 <!--index.wxml-->
-<view class="container">
-  <view class="userinfo">
-    <button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 获取头像昵称 </button>
-    <block wx:else>
-      <image class="userinfo-avatar" src="{{userInfo.avatarUrl}}" background-size="cover"></image>
-      <text class="userinfo-nickname">{{userInfo.nickName}}</text>
-    </block>
+<view>
+  <view class='header'>
+    <view class="overview">
+        <view class='logo'></view>
+        <view class='right-info'>
+          <text class='num'>+447个</text>
+          <text class='txt'>商家优惠活动</text>
+          <text class='txt'>——</text>
+          <text class='num'>+96745个</text>
+          <text class='txt'>获得实惠</text>
+        </view>
+    </view>
   </view>
-  <view class="usermotto">
-    <text bindtap="bindViewTap" class="user-motto">{{motto}}</text>
+  <view class='list'>
+    <view class='items'>
+      <image class='item-img'></image>
+      <view class='item-content'>
+        <text class='title'>又一家烧烤（西湖店）</text>
+        <text class='price'>￥5.00</text>
+        <text class='sold'>已售369份</text>
+      </view>
+    </view>
   </view>
 </view>
