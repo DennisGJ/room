@@ -1,7 +1,7 @@
 /**draw.wxss**/
-page {
+/* page {
   background-color: #1296db;
-}
+} */
 .drawBox {
   margin: 100rpx auto;
   background-color: #d60013;
